@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header{
+    margin:0;
+}
+
+.navbar-brand{
+font-family:Lobster;
+}
+
+
+.main-image{
+    background: url("../images/beauty-leaf-sepia-min.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    min-width:360px;
+    background-attachment: fixed;
+  }
+
+    .inner{
+
+    text-align: center;
+}
+
+.btn-success{
+  border-radius: 50px;
+}
+
+
+/*navbar*/
+.navbar{
+background-color:  #b4e4c5;
+}
+
+#navbar{
+  background-color: #b4e4c5;
+}
+
+#dropdown-menu{
+background-color:#90b582;
+}
+
+.cover-heading{
+  color:white;
+}
+
+.scroll{
+color:  #b4e4c5;
+font-size: xx-large;
+}
+
+.scroll:hover{
+color: magenta;
+}
+
+/*traffic-lights*/
+
+#cards{
+    background: url("../images/beauty-leaf-min.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    min-width:360px;
+    background-attachment: fixed;
+}
+
+.card{
+  background-color: #b4e4c5;
+  margin: 50vh 0vh 50vh 0vh;
+}
+
+/*Accordion*/
+
+#accordionFlushExample{
+  background-color:#b4e4c5;
+
+}
+
+#red-list:hover{
+  background-color:red;
+}
+#red-list:focus{
+  background-color:crimson;
+}
+#red-list:active{
+  background-color:maroon;
+}
+
+#amber-list:hover{
+  background-color:orange;
+}
+#amber-list:focus{
+  background-color:darkorange;
+}
+#amber-list:active{
+  background-color:orangered
+}
+
+#green-list:hover{
+  background-color:green;
+}
+#green-list:focus{
+  background-color:darkgreen;
+}
+#green-list:active{
+  background-color:seagreen;
+}
+
+#red-label{
+    color:black;
+}
+#red-label:hover{
+    color:white;
+}
+
+#amber-label{
+    color:black;
+}
+#amber-label:hover{
+    color:white;
+}
+
+#green-label{
+    color:black;
+}
+#green-label:hover{
+    color:white;
+}
+
+.icons{
+    text-align:center;
+}
+
+#footer{
+  background-color:#90b582;
+}
